@@ -1,0 +1,180 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+body {
+    padding: 0px;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1920px;
+    height: auto;
+}
+
+.minicontainer {
+    width: 1240px;
+    margin-left: 300px;
+    height: 1000px;
+}
+
+#separatorbar {
+    min-height: 8px;
+    background-color: #4ecdc4;
+}
+
+.navbar {
+    
+    margin-right: 15px;
+    margin-left: -15px;
+    background: rgb(78,205,196,0.5);
+    border-color: rgb(78,205,196,0.5);
+    min-height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #4ecdc4;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image:url("../img/Hero2.jpg");
+    background-repeat: no-repeat;
+    min-height: 1067px;
+    
+}
+
+.logo {
+    float: left;
+    height: 52px;
+}
+
+.logopanel {
+    text-align: center;
+}
+
+
+img.diamond {
+z-index: 1;
+}
+
+.iconwhite {
+    position:relative;
+    top: -650px;
+    z-index: 2;
+}
+
+.stf {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+.stj {
+    position: absolute;
+    top: 22%;
+    left: 44%; 
+}
+#Why {
+    min-height: 675px;
+    padding-top: 50px;
+}
+
+.incarimg {
+    padding-top: 25px;
+    margin-left: -15px;
+}
+
+aside {
+    padding-top: 25px;
+}
+
+#About {
+    padding-top: 25px;
+    min-height:  675px;
+    background-image: url(../img/map.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#title {
+    margin-left: 23px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.overlay {
+    margin-top: -25px;
+    width: 1240px;
+    height: 675px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#Recent {
+    min-height: 675px;
+}
+
+.activity-reviews {
+    min-height: 300px; 
+    max-height: 395px;
+}
+
+.carousel-caption {
+    color: #313131;
+    text-align: center;
+    text-shadow: none;
+    bottom: 50px;
+    margin-left: 150px;
+    margin-right: 5opx;
+}
+
+.recent-activity-outer {
+    background: #e3e2e3;
+    padding: 20px 2px 20px 2px;
+    margin-bottom: 85px;  
+} 
+    
+.table {
+    background: #f6f6f6;
+    max-height: 375px;
+    overflow-y: scroll; /* adds vertical scroll bar */
+}
+
+#ContactUs {
+    min-height: 800px;
+}
+
+footer {
+    width: 1920px;
+}
+.companytext {
+    float: right;
+}
